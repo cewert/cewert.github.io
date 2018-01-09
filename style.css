@@ -1,0 +1,38 @@
+/* page-wide defaults */
+html {
+  font-size: 1.6rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+/* main button */
+div.card-footer a.btn {
+  font-size: .7rem;
+  line-height: .7rem;
+  padding: 0.4rem;
+}
+/* social share buttons */
+div.social a.btn {
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  padding: 0.2rem;
+}
+/* twitter button */
+div#twitter-share a {
+  background-color:  #1DA1F2;
+  border-color: #1DA1F2;
+}
+
+div#twitter-share i {
+  color:  #1DA1F2;
+}
+
+div#twitter-share, div#made-by {
+  display: inline;
+}
+
+div#made-by {
+  float: right;
+  font-size: 0.6rem;
+  line-height: 0.8rem;
+  padding-top: 0.3rem;
+}
